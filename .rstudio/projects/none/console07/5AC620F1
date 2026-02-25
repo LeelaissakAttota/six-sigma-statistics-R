@@ -29,3 +29,30 @@ bash: .RData: command not found
 ]0;/home/rstudiorstudio@0960d9077a41:~$ .Rproj.user
 bash: .Rproj.user: command not found
 ]0;/home/rstudiorstudio@0960d9077a41:~$ git add .
+]0;/home/rstudiorstudio@0960d9077a41:~$ git commit -m "Added gitignore"
+[main 4aecc21] Added gitignore
+ 9 files changed, 37 insertions(+), 25 deletions(-)
+ rewrite .rstudio/projects/none/console07/5AC620F1 (94%)
+ create mode 100644 .rstudio/sessions/active/session-e2cd27f8/graphics-r3/8dd088f1-2e65-4190-a51b-ecc09b20bc30.png
+ rename .rstudio/sessions/active/session-e2cd27f8/graphics-r3/{aca82db6-bda5-43d4-a560-dd899b0df7d5.snapshot => 8dd088f1-2e65-4190-a51b-ecc09b20bc30.snapshot} (100%)
+ delete mode 100644 .rstudio/sessions/active/session-e2cd27f8/graphics-r3/aca82db6-bda5-43d4-a560-dd899b0df7d5.png
+]0;/home/rstudiorstudio@0960d9077a41:~$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+]0;/home/rstudiorstudio@0960d9077a41:~$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .rstudio/projects/none/console07/5AC620F1[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;/home/rstudiorstudio@0960d9077a41:~$ git remote -v
+origin	https://github.com/Leelaisakkatataota/Six-Sigma-Basic-Statistics.R.git (fetch)
+origin	https://github.com/Leelaisakkatataota/Six-Sigma-Basic-Statistics.R.git (push)
+]0;/home/rstudiorstudio@0960d9077a41:~$ git init
+Reinitialized existing Git repository in /home/rstudio/.git/
+]0;/home/rstudiorstudio@0960d9077a41:~$ git add .
