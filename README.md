@@ -1,4 +1,4 @@
-# Six Sigma: Basic Statistical Analysis in R
+# six-sigma-healthcare-analytics-R
 
 ![R](https://img.shields.io/badge/Language-R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![RStudio](https://img.shields.io/badge/IDE-RStudio-75AADB?style=for-the-badge&logo=rstudio&logoColor=white)
